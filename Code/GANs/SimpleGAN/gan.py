@@ -1,3 +1,8 @@
+"""
+Simple GAN implementation in PyTorch for MNIST dataset
+"""
+
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -8,7 +13,6 @@ from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 import ssl
 import certifi
-
 
 
 class Discriminator(nn.Module):
