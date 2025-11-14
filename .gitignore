@@ -3,7 +3,12 @@ __pycache__/
 *.pyc
 .DS_Store
 
+*.pth.tar
+*.tar
+*.zip
+
 # Ignore datasets and TensorBoard logs
 dataset/
+data/
 runs/
 logs/
