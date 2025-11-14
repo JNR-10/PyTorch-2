@@ -41,7 +41,7 @@ try:
 except Exception:
     pass
 train_ds = datasets.MNIST(root="dataset/", train=True, transform=transforms, download=True)
-train_loader = DataLoader(train_ds, batch_size=BATCH_SIZE, shuffle=True)
+loader = DataLoader(train_ds, batch_size=BATCH_SIZE, shuffle=True)
 
 
 # initialize gen and disc, note: discriminator should be called critic,
