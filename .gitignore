@@ -12,3 +12,6 @@ dataset/
 data/
 runs/
 logs/
+saved/
+test_images/
+
