@@ -6,12 +6,11 @@ __pycache__/
 *.pth.tar
 *.tar
 *.zip
+*.pth
 
 # Ignore datasets and TensorBoard logs
 dataset/
 data/
 runs/
 logs/
-saved/
-test_images/
 
