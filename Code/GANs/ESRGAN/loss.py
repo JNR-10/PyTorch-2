@@ -6,7 +6,7 @@ import config
 class VGGLoss(nn.Module):
     def __init__(self):
         super().__init__()
-        self.vgg = vgg19(pretrained=True).features[:35].eval().to(config.DEVICE)
+        self.vgg = vgg19(weights='VGG19_Weights.IMAGENET1K_V1').features[:35].eval().to(config.DEVICE)
 
         for param in self.vgg.parameters():
             param.requires_grad = False

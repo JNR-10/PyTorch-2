@@ -99,7 +99,7 @@ class Generator(nn.Module):
         x = self.conv(self.residual(initial)) + initial
         x = self.upsamples(x)
         x = self.final(x)
-        return x
+        return torch.tanh(x)  # Ensure output is in [-1, 1] range
 
 
 # same as SRGAN discriminator
