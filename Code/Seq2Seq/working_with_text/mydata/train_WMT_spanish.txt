@@ -1,0 +1,4 @@
+yo soy estudiante
+esto es una prueba
+hace buen tiempo hoy
+estamos aprendiendo pytorch
